@@ -1,0 +1,20 @@
+PARTICION EXPERIMENTAL - SPAPHISH V5
+====================================
+Fecha: 2026-11-21T23:24:38.956673-06:00
+Semilla: 20261121
+SHA256 corpus: 656b2245d58da72d640680e5c2a168673a130b38607f2a427c773bbb167e995e
+Total original: 1395
+
+DISTRIBUCION (0=legitimo, 1=phishing):
+Label             0    1
+particion               
+entrenamiento   211  265
+validacion       53   66
+prueba_sellada  400  400
+
+Clusters cruzados: 0
+Registros asignados: 1395
+Estado: PARTICIONES VERIFICADAS
+
+La prueba final permanece reservada.
+No utilizarla para entrenamiento o ajuste.

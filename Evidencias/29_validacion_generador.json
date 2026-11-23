@@ -1,0 +1,167 @@
+{
+  "fecha": "2026-11-22T18:05:21.039572-06:00",
+  "modelo": "llama3.2:3b",
+  "digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+  "configuracion": "B_CON_EJEMPLOS",
+  "parametros": {
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "seed": 20261121,
+    "num_predict": 120,
+    "num_ctx": 2048
+  },
+  "instrucciones": "\nEres un asistente de reformulacion en espanol.\n\nConserva exactamente los hechos originales.\nCambia solamente la forma de expresar la informacion.\n\nNo agregues ni elimines informacion.\nNo cambies fechas, cantidades, sujetos o acciones.\nNo agregues instrucciones ni enlaces.\n\nEjemplo 1:\nOriginal: La capacitacion empieza el martes.\nReformulacion: El martes comienza la capacitacion.\n\nEjemplo 2:\nOriginal: El informe estara disponible el viernes.\nReformulacion: El viernes estara disponible el informe.\n\nDevuelve solamente una oracion reformulada.\nSi no puedes conservar el significado,\nresponde NO_REFORMULABLE.\n",
+  "controles_nuevos": 12,
+  "resultados": [
+    {
+      "id": "CONTROL_004",
+      "foco": "Fecha",
+      "original": "El comite publicara el acta el miercoles a las nueve.",
+      "generado": "El miercoles a las nueve, el comite publicara el acta.",
+      "sha256_original": "28b72ee3d6ae2c19d178f6e941ead6bde323c907cd3e926a32e690fa61a929dd",
+      "sha256_generado": "964b44b16d1f4b04afa281179c0c4f67d5913653020a42f0a19ff0fdab800a2d",
+      "similitud_textual": 0.5192,
+      "alertas": [],
+      "duracion_segundos": 4.2645,
+      "revision_manual": "PENDIENTE"
+    },
+    {
+      "id": "CONTROL_005",
+      "foco": "Cierre",
+      "original": "La biblioteca permanecera cerrada el proximo lunes por mantenimiento.",
+      "generado": "El proximo lunes, la biblioteca permanecera cerrada por mantenimiento.",
+      "sha256_original": "0de3c2a7cd4940d6e64853510ec4701c0a13f3e51f210b89cecc9bc550657bf8",
+      "sha256_generado": "6e9501b69e262e4474f071b108b527cef56aebfb3ec4faed5c064c6c424aadbf",
+      "similitud_textual": 0.75,
+      "alertas": [],
+      "duracion_segundos": 0.2048,
+      "revision_manual": "PENDIENTE"
+    },
+    {
+      "id": "CONTROL_006",
+      "foco": "Duracion",
+      "original": "La capacitacion virtual tendra una duracion de dos horas.",
+      "generado": "La capacitacion virtual durara dos horas.",
+      "sha256_original": "f4b9cc3cea886906a5881f93e9b801f1739ae4ffea11585391a025c921f38dc4",
+      "sha256_generado": "b7e6d4f6b56172da91b76fe36e7fd657863a2cd0e7a595133721e3ac7e8e7f37",
+      "similitud_textual": 0.7917,
+      "alertas": [],
+      "duracion_segundos": 0.139,
+      "revision_manual": "PENDIENTE"
+    },
+    {
+      "id": "CONTROL_007",
+      "foco": "Orden temporal",
+      "original": "El personal recibira las instrucciones antes del inicio de la actividad.",
+      "generado": "El personal recibirá las instrucciones antes del inicio de la actividad.",
+      "sha256_original": "9bb018dd521350d57283320bbe1260f1222d022dd3ed7014dd926fada76c7314",
+      "sha256_generado": "cb147aa2bca2ed0ad8afb8e57640e52cf089358b52b66f82652f67699d6ea9d9",
+      "similitud_textual": 1.0,
+      "alertas": [
+        "SIN_REFORMULACION"
+      ],
+      "duracion_segundos": 0.1935,
+      "revision_manual": "PENDIENTE"
+    },
+    {
+      "id": "CONTROL_008",
+      "foco": "Cantidades",
+      "original": "El informe final incluye tres tablas y dos figuras.",
+      "generado": "El informe final cuenta con tres tablas y dos figuras.",
+      "sha256_original": "a7c9a2fae4fa3d4c8642634a14e670391bfac23e38a8ea7304ee540dde06a758",
+      "sha256_generado": "20be900de15a37acbc7413ce03a8472b56f38117698e99a90165247b7c76bea1",
+      "similitud_textual": 0.8738,
+      "alertas": [],
+      "duracion_segundos": 0.1587,
+      "revision_manual": "PENDIENTE"
+    },
+    {
+      "id": "CONTROL_009",
+      "foco": "Secuencia",
+      "original": "Las solicitudes recibidas despues del viernes se revisaran el lunes.",
+      "generado": "Las solicitudes recibidas antes del viernes se revisaran el lunes.",
+      "sha256_original": "1e1a9078c4135063d93c312ab64a91f4dd0bcc81d3406602de3e38951c8d934d",
+      "sha256_generado": "1c360239ce3c0983102941be53ec12780b7472c3df456bdaca9f75806e9378cf",
+      "similitud_textual": 0.9394,
+      "alertas": [],
+      "duracion_segundos": 0.1802,
+      "revision_manual": "PENDIENTE"
+    },
+    {
+      "id": "CONTROL_010",
+      "foco": "Negacion",
+      "original": "El curso no se impartira durante la semana de vacaciones.",
+      "generado": "NO_REFORMULABLE",
+      "sha256_original": "b82847fad5f75eff37cf6f5af07e0cd3dc9b89228d9b395eeb96d56a05b36fee",
+      "sha256_generado": "cb9b5921e6f6f090def4f20033f6123c990b2304e85e899b3b371b354dd08d62",
+      "similitud_textual": 0.2535,
+      "alertas": [
+        "NO_REFORMULABLE"
+      ],
+      "duracion_segundos": 0.0935,
+      "revision_manual": "PENDIENTE"
+    },
+    {
+      "id": "CONTROL_011",
+      "foco": "Tiempo pasado",
+      "original": "El inventario fue actualizado ayer por el equipo de logistica.",
+      "generado": "El equipo de logistica actualizo el inventario ayer.",
+      "sha256_original": "a9da921746e6c15be7bd85943be5f6f4249451438e8c0ef6e76d4748eed00750",
+      "sha256_generado": "c8370be8327a006eb665ddae20526c12a6529e1e26501a64bcf59ca9dd67825b",
+      "similitud_textual": 0.3929,
+      "alertas": [],
+      "duracion_segundos": 0.1474,
+      "revision_manual": "PENDIENTE"
+    },
+    {
+      "id": "CONTROL_012",
+      "foco": "Fecha limite",
+      "original": "La encuesta estara disponible unicamente hasta el 30 de noviembre.",
+      "generado": "La encuesta estará disponible hasta el 30 de noviembre.",
+      "sha256_original": "e11c9f410baeb72d7ac4e89d3cb6e4544acf46ea076816149f58de8bf226d821",
+      "sha256_generado": "87c06fb53fb8b6f91e7f06534dd96e66ded3e09e5ee6a4d1e0f3761dadbc8be0",
+      "similitud_textual": 0.9076,
+      "alertas": [],
+      "duracion_segundos": 0.1663,
+      "revision_manual": "PENDIENTE"
+    },
+    {
+      "id": "CONTROL_013",
+      "foco": "Horario",
+      "original": "El laboratorio abre a las ocho y cierra a las cuatro.",
+      "generado": "El laboratorio se abre a las ocho y se cierra a las cuatro.",
+      "sha256_original": "8b76e3557e68db6f5a42dccbbc39d27a9e70a277f38bf9cf359679462487a1d0",
+      "sha256_generado": "52efa965a0606aa57988897a146924f69d40e65002d2c569d5a3370717c5b2f3",
+      "similitud_textual": 0.9455,
+      "alertas": [],
+      "duracion_segundos": 0.1858,
+      "revision_manual": "PENDIENTE"
+    },
+    {
+      "id": "CONTROL_014",
+      "foco": "Entrega",
+      "original": "Los participantes deben entregar el formulario en la oficina principal.",
+      "generado": "Los participantes deben presentar el formulario en la oficina principal.",
+      "sha256_original": "80b20623e2c0dbca22f7414b5b20acac4e0e7a6b2fd0f5727dccaeb888eb7783",
+      "sha256_generado": "b6bee632604c64deb062265ec9a944575bfdd9cd91db9d962c9381d4f37e0860",
+      "similitud_textual": 0.9504,
+      "alertas": [],
+      "duracion_segundos": 0.1577,
+      "revision_manual": "PENDIENTE"
+    },
+    {
+      "id": "CONTROL_015",
+      "foco": "Cambio de ubicacion",
+      "original": "La reunion cambio del salon A al salon C por motivos de espacio.",
+      "generado": "La reunion se reubicó del salon A al salon C debido a problemas de espacio.",
+      "sha256_original": "90f7a1efc44d7ec7c38f8594cb68c47308ea79eff033386743f4cd3da11d05bc",
+      "sha256_generado": "56ac732f7de5f636673e3cb81dbc3841ea5b36077ea372772f2eebb84e381498",
+      "similitud_textual": 0.7737,
+      "alertas": [],
+      "duracion_segundos": 0.2089,
+      "revision_manual": "PENDIENTE"
+    }
+  ],
+  "variantes_dataset_generadas": 0,
+  "prueba_final_utilizada": false
+}

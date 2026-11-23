@@ -1,0 +1,13 @@
+AUDITORIA DE CASI DUPLICADOS - SPAPHISH
+======================================
+Registros analizados: 1395
+Metodo: shingles de 5 palabras
+Similitud: Jaccard >= 0.90
+Pares similares identificados: 35
+Clusters totales: 1373
+Clusters con mas de un registro: 14
+Registros en clusters multiples: 36
+Clusters con etiquetas diferentes: 0
+
+DISTRIBUCION DE TAMANOS DE CLUSTERS:
+Counter({1: 1359, 2: 10, 4: 2, 3: 1, 5: 1})

@@ -1,0 +1,7 @@
+T16 - REVISION DEL PILOTO
+========================
+Mensajes revisados automaticamente: 30
+Mensajes con patrones residuales: 0
+Revision manual: PENDIENTE
+Variantes IA generadas: 0
+Prueba final: NO UTILIZADA

@@ -1,0 +1,14 @@
+﻿DECISION METODOLOGICA PRELIMINAR - SEMINARIO 2
+
+Fecha: 21 de noviembre de 2026
+
+1. Se conservaran como candidatos los dos detectores V2.
+2. La neutralizacion V2 se aplicara de forma simetrica.
+3. El clasificador clasico no cambio sus predicciones entre V1 y V2.
+4. El clasificador semantico cambio una prediccion.
+5. Se mantiene provisionalmente el limite de 128 tokens.
+6. Se reconoce la perdida potencial de informacion por truncamiento.
+7. La revision de identificadores sensibles sigue pendiente.
+8. No se han utilizado los 800 registros reservados de prueba.
+9. No se ha ejecutado el contraste confirmatorio de la hipotesis.
+10. Los modelos aun no se declaran definitivamente congelados.

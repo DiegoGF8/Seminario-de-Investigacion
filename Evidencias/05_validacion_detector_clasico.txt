@@ -1,0 +1,29 @@
+DETECTOR CLASICO - VALIDACION
+============================
+Fecha: 2026-11-21T23:25:52.414494-06:00
+Semilla: 20261121
+Modelo: TF-IDF + Regresion Logistica L2
+TF-IDF: unigramas y bigramas
+Neutralizacion: URLs y emails explicitos
+Umbral: 0.5
+
+Entrenamiento: 476 correos
+Validacion: 119 correos
+Prueba final: NO UTILIZADA
+
+Accuracy: 0.9244
+Precision: 0.9831
+Recall: 0.8788
+F1: 0.9280
+FPR: 0.0189
+FNR: 0.1212
+
+TN: 52
+FP: 1
+FN: 8
+TP: 58
+
+Tiempo entrenamiento (s): 0.2062
+Tiempo validacion lote (s): 0.0180
+Promedio por mensaje del lote (ms): 0.1510
+SHA256 modelo: e6e65a31f4ea05dab5529b952cc309de911adb6762630ad218f82596db57ae5e

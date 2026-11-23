@@ -1,0 +1,23 @@
+T9 - AUDITORIA DE NEUTRALIZACION
+================================
+Fecha: 2026-11-21T23:37:58.501736-06:00
+Registros de desarrollo: 595
+Registros de prueba final: NO UTILIZADOS
+
+RESULTADOS:
+urls_originales: 157
+emails_originales: 118
+urls_residuales: 0
+emails_residuales: 0
+dominios_residuales: 37
+numeros_largos_residuales: 122
+
+OBSERVACIONES:
+Se verificaron los patrones de neutralizacion.
+Los dominios y numeros largos requieren
+revision adicional antes de usar una API externa.
+Los resultados son indicadores, no una
+certificacion de anonimato completo.
+
+No se modificaron los datos originales.
+No se reentrenaron los clasificadores.

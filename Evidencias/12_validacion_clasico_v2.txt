@@ -1,0 +1,29 @@
+T13 - VALIDACION DEL DETECTOR CLASICO V2
+======================================
+Fecha: 2026-11-21T23:52:08.987911-06:00
+Semilla: 20261121
+Tratamiento: neutralizacion V2
+
+Entrenamiento: 476
+Validacion: 119
+Prueba final: NO UTILIZADA
+
+METRICAS V2:
+Accuracy: 0.9244
+Precision: 0.9831
+Recall: 0.8788
+F1: 0.9280
+FPR: 0.0189
+FNR: 0.1212
+
+TN: 52
+FP: 1
+FN: 8
+TP: 58
+
+Predicciones diferentes V1 vs V2: 0
+SHA256 modelo V2: 633e6c6177fb343927a24039330d475e8f9e96c4e5401aad67ac1fe4ec770639
+
+Modelo original V1 conservado.
+Modelo V2 guardado por separado.
+Prueba final sin utilizar.

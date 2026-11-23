@@ -1,0 +1,36 @@
+T30 - CONSOLIDACION DE VALIDACION T29
+====================================
+Fecha: 2026-11-22T18:12:16.707191-06:00
+Modelo: llama3.2:3b
+Configuracion: B_CON_EJEMPLOS
+
+Controles evaluados: 12
+Aprobados: 7
+Rechazados: 5
+Tasa de aprobacion: 58.3%
+Tasa de rechazo: 41.7%
+Controles con alertas automaticas: 2
+Rechazados sin alertas automaticas: 3
+
+CONTROLES RECHAZADOS SIN ALERTA:
+CONTROL_009
+CONTROL_014
+CONTROL_015
+
+HALLAZGOS PRINCIPALES:
+CONTROL_009: inversion de condicion temporal.
+CONTROL_007: ausencia de reformulacion.
+CONTROL_010: respuesta NO_REFORMULABLE.
+
+CONCLUSION:
+El generador funciona, pero presenta
+limitaciones de fidelidad semantica.
+La revision humana sigue siendo necesaria.
+La configuracion B permanece provisional.
+
+Variantes del dataset: 0
+Clasificadores: SIN MODIFICACIONES
+Prueba final: NO UTILIZADA
+Protocolo congelado: NO
+
+T30 FINALIZADO.

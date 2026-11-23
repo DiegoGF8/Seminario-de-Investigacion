@@ -1,0 +1,34 @@
+T14 - DETECTOR SEMANTICO V2
+==========================
+Fecha: 2026-11-21T23:53:41.651187-06:00
+Semilla: 20261121
+Neutralizacion: V2
+Encoder: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Revision: e8f8c211226b894fcb81acc59f3b34ba3efd5f42
+
+Entrenamiento: 476
+Validacion: 119
+Prueba final: NO UTILIZADA
+
+METRICAS:
+Accuracy: 0.8908
+Precision: 0.9077
+Recall: 0.8939
+F1: 0.9008
+FPR: 0.1132
+FNR: 0.1061
+
+TN: 47
+FP: 6
+FN: 7
+TP: 59
+
+Predicciones diferentes V1 vs V2: 1
+Limite de tokens: 128
+Truncables entrenamiento: 339
+Truncables validacion: 75
+SHA256 modelo V2: 88f9053c26704c98992c46f789e0093047ec8481078dceba5007b43aa3b6114d
+
+Modelo V1 conservado.
+Limitacion de truncamiento pendiente.
+Prueba final sin utilizar.

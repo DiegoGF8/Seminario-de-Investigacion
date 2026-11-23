@@ -1,0 +1,31 @@
+DETECTOR SEMANTICO - VALIDACION
+================================
+Fecha: 2026-11-21T23:32:17.308524-06:00
+Semilla: 20261121
+Encoder: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Revision: e8f8c211226b894fcb81acc59f3b34ba3efd5f42
+Longitud maxima tokens: 128
+Mensajes truncables entrenamiento: 337
+Mensajes truncables validacion: 75
+Dimensiones embedding: 384
+Umbral: 0.5
+
+Entrenamiento: 476
+Validacion: 119
+Prueba final: NO UTILIZADA
+
+Accuracy: 0.8992
+Precision: 0.9219
+Recall: 0.8939
+F1: 0.9077
+FPR: 0.0943
+FNR: 0.1061
+
+TN: 48
+FP: 5
+FN: 7
+TP: 59
+
+Tiempo embeddings entrenamiento (s): 6.2107
+Tiempo ajuste clasificador (s): 0.0568
+Tiempo validacion lote (s): 1.4884

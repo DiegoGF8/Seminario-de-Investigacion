@@ -1,0 +1,23 @@
+T26 - REVISION SEMANTICA
+=======================
+Fecha: 2026-11-22T17:31:25.739332-06:00
+Modelo: llama3.2:3b
+Controles evaluados: 3
+Aprobados: 1
+Rechazados: 2
+
+DECISIONES:
+CONTROL_001: APROBADO
+Motivo: Reformulacion equivalente. Conserva actividad, fecha y hora.
+CONTROL_002: RECHAZADO
+Motivo: Repite el mensaje original sin una reformulacion sustantiva.
+CONTROL_003: RECHAZADO
+Motivo: Introduce una revision del horario que no consta en el original.
+
+Generador: FUNCIONAL
+Calidad de reformulacion: REQUIERE AJUSTES
+Variantes del dataset: 0
+Prueba final: NO UTILIZADA
+Clasificadores: SIN MODIFICACIONES
+
+T26 FINALIZADO.

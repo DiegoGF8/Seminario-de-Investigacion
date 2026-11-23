@@ -1,0 +1,51 @@
+{
+  "proyecto": "Seminario de Investigacion 2",
+  "fase": "Prueba del generador",
+  "fecha": "2026-11-22T17:27:58.647475-06:00",
+  "modelo": "llama3.2:3b",
+  "digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+  "version_ollama": "0.40.17",
+  "parametros": {
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "seed": 20261121,
+    "num_predict": 150,
+    "num_ctx": 2048
+  },
+  "tipo_datos": "SINTETICOS_INOFENSIVOS",
+  "cantidad_controles": 3,
+  "variantes_dataset_generadas": 0,
+  "prueba_final_utilizada": false,
+  "resultados": [
+    {
+      "id": "CONTROL_001",
+      "texto_referencia": "El taller de fotografia iniciara el lunes a las diez de la manana.",
+      "texto_generado": "El taller de fotografia tendra su primera sesion el lunes a las diez de la manana.",
+      "sha256_referencia": "affdf4f8839d53f09734ee85e7e411076ed990b94b6e28d254758671f601f53c",
+      "sha256_generado": "2bf1a27ad1e4d58cbab440c7a298f6381cfd2e24f8860a455b9aa1b9976ff1bf",
+      "duracion_segundos": 4.6391,
+      "estado": "SIN_ALERTAS_AUTOMATICAS",
+      "alertas": []
+    },
+    {
+      "id": "CONTROL_002",
+      "texto_referencia": "El equipo recibira el informe mensual el proximo viernes.",
+      "texto_generado": "El equipo recibirá el informe mensual el próximo viernes.",
+      "sha256_referencia": "298b6bf2f519182ed5e764eac20852347cd93b2750da23dfb29fafc36c03f5bf",
+      "sha256_generado": "d16b7864736befce26a93bdae1b7dae0fdd96221c36a070c5367f07396a7b3c5",
+      "duracion_segundos": 0.1797,
+      "estado": "SIN_ALERTAS_AUTOMATICAS",
+      "alertas": []
+    },
+    {
+      "id": "CONTROL_003",
+      "texto_referencia": "Se actualizo el horario de la biblioteca para esta semana.",
+      "texto_generado": "Se ha modificado el horario de apertura de la biblioteca para esta semana.",
+      "sha256_referencia": "81187dc8be4ecbc7654c6cb34bb28b8acebb0afb68e4526acf3044bad9440a79",
+      "sha256_generado": "b1c365de4b79df88f09d5cf06858e64ae1371cca845eed0ae3d26c83f59e6e10",
+      "duracion_segundos": 0.2085,
+      "estado": "SIN_ALERTAS_AUTOMATICAS",
+      "alertas": []
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+AUDITORIA DE CALIDAD - SPAPHISH
+================================
+Total de registros: 1395
+
+DISTRIBUCION DE ETIQUETAS:
+Label
+1    731
+0    664
+
+Registros sin asunto ni cuerpo: 0
+Hashes faltantes: 0
+Hashes repetidos: 0
+Textos repetidos: 0
+Textos con etiquetas contradictorias: 0

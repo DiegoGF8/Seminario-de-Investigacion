@@ -1,0 +1,44 @@
+{
+  "proyecto": "Seminario de Investigacion 2",
+  "fase": "Piloto exploratorio",
+  "estado": "BORRADOR_PREVIO_A_GENERACION",
+  "fecha": "2026-11-22T17:12:04.183669-06:00",
+  "semilla": 20261121,
+  "fuente": "SpaPhish",
+  "mensajes_iniciales": 30,
+  "mensajes_aprobados": 26,
+  "mensajes_excluidos": 4,
+  "procedencia": "Entrenamiento",
+  "etiqueta_original": 1,
+  "neutralizacion_piloto": "V3",
+  "modelos_candidatos": [
+    "detector_clasico_v2.joblib",
+    "detector_semantico_v2.joblib"
+  ],
+  "generador_IA": "PENDIENTE_DE_SELECCION",
+  "parametros_generacion": "PENDIENTES",
+  "variantes_generadas": 0,
+  "criterios_piloto": [
+    "Conservar correspondencia de cada par",
+    "No incluir identificadores reales",
+    "No incluir enlaces operativos",
+    "No generar solicitudes funcionales de credenciales",
+    "Registrar las decisiones de aceptacion",
+    "Conservar los textos de referencia",
+    "Utilizar ejemplos sinteticos inofensivos"
+  ],
+  "decisiones_pendientes": [
+    "Comprobar la aptitud para el generador elegido",
+    "Definir y congelar los parametros de generacion",
+    "Resolver el tratamiento equivalente V2 y V3",
+    "Definir el procedimiento de evaluacion",
+    "Mantener la prueba final reservada"
+  ],
+  "limitaciones": [
+    "Piloto compuesto por mensajes de entrenamiento",
+    "Exclusiones aplicadas solo al piloto",
+    "La auditoria no certifica anonimizacion",
+    "El encoder semantico tiene limite de 128 tokens"
+  ],
+  "prueba_final_utilizada": false
+}

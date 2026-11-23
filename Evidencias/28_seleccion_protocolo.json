@@ -1,0 +1,45 @@
+{
+  "fecha": "2026-11-22T18:03:54.840514-06:00",
+  "fase": "Consolidacion de controles inofensivos",
+  "modelo": "llama3.2:3b",
+  "digest_modelo": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+  "parametros": {
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "seed": 20261121,
+    "num_predict": 120,
+    "num_ctx": 2048
+  },
+  "controles_evaluados": 6,
+  "configuraciones_comparadas": 2,
+  "resultados": [
+    {
+      "configuracion": "A_ESTRICTA",
+      "evaluados": 3,
+      "aprobados": 2,
+      "rechazados": 1,
+      "tasa_aprobacion": 0.6666666666666666
+    },
+    {
+      "configuracion": "B_CON_EJEMPLOS",
+      "evaluados": 3,
+      "aprobados": 3,
+      "rechazados": 0,
+      "tasa_aprobacion": 1.0
+    }
+  ],
+  "configuracion_seleccionada": "B_CON_EJEMPLOS",
+  "instrucciones_seleccionadas": "\nEres un asistente de reformulacion en espanol.\n\nConserva exactamente los hechos originales.\nCambia solamente la forma de expresar la informacion.\n\nNo agregues ni elimines informacion.\nNo cambies fechas, cantidades, sujetos o acciones.\nNo agregues instrucciones ni enlaces.\n\nEjemplo 1:\nOriginal: La capacitacion empieza el martes.\nReformulacion: El martes comienza la capacitacion.\n\nEjemplo 2:\nOriginal: El informe estara disponible el viernes.\nReformulacion: El viernes estara disponible el informe.\n\nDevuelve solamente una oracion reformulada.\nSi no puedes conservar el significado,\nresponde NO_REFORMULABLE.\n",
+  "tipo_seleccion": "PRELIMINAR",
+  "justificacion": "La configuracion B obtuvo tres aprobaciones de tres controles, frente a dos de tres en A. La muestra es demasiado pequena para demostrar superioridad generalizable.",
+  "sha256_excel_revision": "5c404918192916366af75b8df5a21d421180fa58ea1a331263c6c3f74159f4d6",
+  "sha256_resultados_t27": "e07945fca230a1262c30d0b957cb00c036c5b81f9abbade53ab1dfcc8c4a2f9b",
+  "variantes_dataset_generadas": 0,
+  "prueba_final_utilizada": false,
+  "protocolo_congelado": false,
+  "pendiente": [
+    "Evaluar mas controles independientes",
+    "Resolver equivalencia de preprocesamiento V2/V3",
+    "Definir protocolo definitivo antes de prueba final"
+  ]
+}

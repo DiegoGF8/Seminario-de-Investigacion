@@ -1,0 +1,19 @@
+T21 - CONTROL DE INSUMOS DEL PILOTO
+==================================
+Fecha: 2026-11-22T17:13:27.787491-06:00
+Registros iniciales: 30
+Aprobados registrados: 26
+Excluidos: 4
+Hashes de mensajes: VERIFICADOS
+Procedencia: ENTRENAMIENTO
+Etiqueta: PHISHING
+Modelos V2: VERIFICADOS
+Prueba final: NO UTILIZADA
+Variantes IA: NO GENERADAS
+
+PENDIENTE:
+Definir el generador y parametros.
+Congelar el protocolo completo.
+Realizar las pruebas exploratorias.
+
+T21 FINALIZADO.

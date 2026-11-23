@@ -1,0 +1,23 @@
+T12 - PROPUESTA DE NEUTRALIZACION V2
+===================================
+Fecha: 2026-11-21T23:50:08.549013-06:00
+Registros de desarrollo: 595
+Prueba final: NO UTILIZADA
+
+ANTES DE LA AMPLIACION:
+Dominios residuales: 36
+Numeros largos residuales: 122
+
+DESPUES DE LA AMPLIACION:
+URL residuales: 0
+Emails residuales: 0
+Dominios residuales: 0
+Numeros largos residuales: 0
+
+Mensajes modificados: 151
+Textos identicos entre particiones: 0
+
+ESTADO: PROPUESTA METODOLOGICA
+Los datos originales no fueron modificados.
+Los clasificadores no fueron reentrenados.
+No se certifica anonimato completo.

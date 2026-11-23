@@ -1,0 +1,22 @@
+T20 - PREPARACION DEL PROTOCOLO
+================================
+Fecha: 2026-11-22T17:12:04.183669-06:00
+Semilla: 20261121
+Registros iniciales: 30
+Aprobados registrados: 26
+Excluidos: 4
+Origen: entrenamiento
+Etiqueta: phishing
+Neutralizacion piloto: V3
+
+SHA256 Excel: c956a4e11bd31ab8938cdbf6d86d604d49615946493e96abbff1b4c305b01504
+SHA256 manifiesto: e034e2557b5cbe9d6733958c87d78c46b440c99bdaa859e42d6177c0012e5339
+
+Generacion IA: NO EJECUTADA
+Modelos: SIN MODIFICACIONES
+Prueba final: NO UTILIZADA
+
+Protocolo en estado de borrador.
+Pendiente definir la equivalencia V2/V3.
+Pendiente seleccionar generador y parametros.
+No se exportaron textos al manifiesto.

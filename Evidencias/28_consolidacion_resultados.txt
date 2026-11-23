@@ -1,0 +1,26 @@
+T28 - CONSOLIDACION DE RESULTADOS
+================================
+Fecha: 2026-11-22T18:03:54.840514-06:00
+Modelo: llama3.2:3b
+Controles evaluados: 6
+
+RESULTADOS:
+A_ESTRICTA: 2/3 aprobados (66.7%)
+B_CON_EJEMPLOS: 3/3 aprobados (100.0%)
+
+CONFIGURACION SELECCIONADA:
+B_CON_EJEMPLOS
+
+Tipo de seleccion: PRELIMINAR
+Calidad generalizable: NO DEMOSTRADA
+Protocolo congelado: NO
+Variantes del dataset: 0
+Prueba final: NO UTILIZADA
+Clasificadores: SIN MODIFICACIONES
+
+PENDIENTE:
+Ampliar pruebas de calidad del generador.
+Resolver equivalencia V2/V3.
+Definir criterios de evaluacion final.
+
+T28 FINALIZADO.

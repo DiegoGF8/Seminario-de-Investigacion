@@ -1,0 +1,52 @@
+{
+  "fecha": "2026-11-22T18:58:28.423483-06:00",
+  "tipo": "control_inferencia_con_frases_ficticias",
+  "modelo_clasico": "detector_clasico_v2.joblib",
+  "modelo_semantico": "detector_semantico_v2.joblib",
+  "encoder": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "revision_encoder": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "umbral": 0.5,
+  "limite_tokens": 128,
+  "hashes_modelos": {
+    "detector_clasico_v2.joblib": "633e6c6177fb343927a24039330d475e8f9e96c4e5401aad67ac1fe4ec770639",
+    "detector_semantico_v2.joblib": "88f9053c26704c98992c46f789e0093047ec8481078dceba5007b43aa3b6114d"
+  },
+  "resultados": [
+    {
+      "id": "CONTROL_A",
+      "sha256_original": "fffbb7373e6f8eab7cbb39c26fad09f048d927f49650062596677191e761a944",
+      "sha256_neutralizado": "fffbb7373e6f8eab7cbb39c26fad09f048d927f49650062596677191e761a944",
+      "tokens_semanticos": 14,
+      "supera_limite_encoder": false,
+      "probabilidad_clasico": 0.386144,
+      "prediccion_clasico": 0,
+      "probabilidad_semantico": 0.006454,
+      "prediccion_semantico": 0
+    },
+    {
+      "id": "CONTROL_B",
+      "sha256_original": "4a411dd2542c7a3fd1ff2b0a8f5d48be86a3f18417fbf497494bb0d70b9d0e55",
+      "sha256_neutralizado": "4a411dd2542c7a3fd1ff2b0a8f5d48be86a3f18417fbf497494bb0d70b9d0e55",
+      "tokens_semanticos": 12,
+      "supera_limite_encoder": false,
+      "probabilidad_clasico": 0.418073,
+      "prediccion_clasico": 0,
+      "probabilidad_semantico": 0.769831,
+      "prediccion_semantico": 1
+    },
+    {
+      "id": "CONTROL_C",
+      "sha256_original": "4c7ffd446b7db1fe572bb17f4b837e490459118c4619017c85052e23d51dbc06",
+      "sha256_neutralizado": "108c5414c9fd879440ef5962dc754e286b1c683d493aeeed2b7f75427e324268",
+      "tokens_semanticos": 28,
+      "supera_limite_encoder": false,
+      "probabilidad_clasico": 0.533349,
+      "prediccion_clasico": 1,
+      "probabilidad_semantico": 0.86661,
+      "prediccion_semantico": 1
+    }
+  ],
+  "entrenamiento": "NO EJECUTADO",
+  "prueba_final": "NO UTILIZADA",
+  "equivalencia_v2_v3": "NO DEMOSTRADA"
+}

@@ -1,0 +1,16 @@
+T29 - VALIDACION ADICIONAL DEL GENERADOR
+======================================
+Fecha: 2026-11-22T18:05:21.039572-06:00
+Modelo: llama3.2:3b
+Configuracion: B_CON_EJEMPLOS
+Controles nuevos: 12
+Controles con alertas: 2
+Revision semantica: PENDIENTE
+Variantes del dataset: 0
+Prueba final: NO UTILIZADA
+Clasificadores: SIN MODIFICACIONES
+
+Las alertas son indicadores preliminares.
+La aceptacion requiere revision humana.
+
+T29 FINALIZADO.

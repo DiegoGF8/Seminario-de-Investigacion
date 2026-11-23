@@ -1,0 +1,4 @@
+﻿id,texto_original,texto_generado,decision,justificacion,alertas_automaticas
+CONTROL_001,El taller de fotografia iniciara el lunes a las diez de la manana.,El taller de fotografia comenzara el lunes a las diez de la mañana.,APROBADO,"Reformulacion equivalente. Conserva actividad, fecha y hora.",
+CONTROL_002,El equipo recibira el informe mensual el proximo viernes.,El equipo recibirá el informe mensual el próximo viernes.,RECHAZADO,Repite el mensaje original sin una reformulacion sustantiva.,SIN_REFORMULACION_REAL
+CONTROL_003,Se actualizo el horario de la biblioteca para esta semana.,El horario actualizado de la biblioteca para esta semana ha sido revisado.,RECHAZADO,Introduce una revision del horario que no consta en el original.,

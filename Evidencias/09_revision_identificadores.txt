@@ -1,0 +1,8 @@
+T10 - REVISION DE IDENTIFICADORES
+================================
+Mensajes de desarrollo: 595
+Mensajes pendientes de revision: 152
+Con dominios: 37
+Con numeros largos: 122
+Prueba final: NO UTILIZADA
+No se modificaron modelos ni textos.

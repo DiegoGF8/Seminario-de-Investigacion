@@ -1,0 +1,101 @@
+{
+  "fecha": "2026-11-22T17:33:01.089047-06:00",
+  "fase": "Comparacion de instrucciones",
+  "modelo": "llama3.2:3b",
+  "digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+  "parametros": {
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "seed": 20261121,
+    "num_predict": 120,
+    "num_ctx": 2048
+  },
+  "configuraciones": {
+    "A_ESTRICTA": "\nEres un asistente de reformulacion en espanol.\n\nReformula exclusivamente oraciones administrativas\ninofensivas.\n\nReglas:\n- Conserva todos los hechos originales.\n- Conserva sujeto, accion, tiempo y cantidades.\n- Cambia la redaccion sin cambiar el significado.\n- No agregues hechos, acciones ni interpretaciones.\n- No elimines informacion importante.\n- No inventes fechas, lugares o datos de contacto.\n- Responde solamente con la oracion reformulada.\n- Si no es posible, responde NO_REFORMULABLE.\n",
+    "B_CON_EJEMPLOS": "\nEres un asistente de reformulacion en espanol.\n\nConserva exactamente los hechos originales.\nCambia solamente la forma de expresar la informacion.\n\nNo agregues ni elimines informacion.\nNo cambies fechas, cantidades, sujetos o acciones.\nNo agregues instrucciones ni enlaces.\n\nEjemplo 1:\nOriginal: La capacitacion empieza el martes.\nReformulacion: El martes comienza la capacitacion.\n\nEjemplo 2:\nOriginal: El informe estara disponible el viernes.\nReformulacion: El viernes estara disponible el informe.\n\nDevuelve solamente una oracion reformulada.\nSi no puedes conservar el significado,\nresponde NO_REFORMULABLE.\n"
+  },
+  "resultados": [
+    {
+      "id": "CONTROL_001",
+      "configuracion": "A_ESTRICTA",
+      "original": "El taller de fotografia iniciara el lunes a las diez de la manana.",
+      "generado": "El taller de fotografia comenzará el lunes a las diez de la mañana.",
+      "sha256_original": "affdf4f8839d53f09734ee85e7e411076ed990b94b6e28d254758671f601f53c",
+      "sha256_generado": "efffc44d4f5b190bb874f3e7d1ca7bc1baaf62499b23848b863c7d254d1eb18d",
+      "similitud_textual": 0.9313,
+      "alertas": [],
+      "duracion_segundos": 0.4905,
+      "revision_semantica": "PENDIENTE",
+      "aprobacion_manual": false
+    },
+    {
+      "id": "CONTROL_002",
+      "configuracion": "A_ESTRICTA",
+      "original": "El equipo recibira el informe mensual el proximo viernes.",
+      "generado": "El equipo recibirá el informe mensual el próximo viernes.",
+      "sha256_original": "298b6bf2f519182ed5e764eac20852347cd93b2750da23dfb29fafc36c03f5bf",
+      "sha256_generado": "d16b7864736befce26a93bdae1b7dae0fdd96221c36a070c5367f07396a7b3c5",
+      "similitud_textual": 1.0,
+      "alertas": [
+        "SIN_REFORMULACION_REAL"
+      ],
+      "duracion_segundos": 0.1569,
+      "revision_semantica": "PENDIENTE",
+      "aprobacion_manual": false
+    },
+    {
+      "id": "CONTROL_003",
+      "configuracion": "A_ESTRICTA",
+      "original": "Se actualizo el horario de la biblioteca para esta semana.",
+      "generado": "El horario de la biblioteca ha sido actualizado para esta semana.",
+      "sha256_original": "81187dc8be4ecbc7654c6cb34bb28b8acebb0afb68e4526acf3044bad9440a79",
+      "sha256_generado": "b028acb51d665a177735cf040099d0ec188adf5b11ea95803bd7ed13a5d1fcac",
+      "similitud_textual": 0.7273,
+      "alertas": [],
+      "duracion_segundos": 0.1703,
+      "revision_semantica": "PENDIENTE",
+      "aprobacion_manual": false
+    },
+    {
+      "id": "CONTROL_001",
+      "configuracion": "B_CON_EJEMPLOS",
+      "original": "El taller de fotografia iniciara el lunes a las diez de la manana.",
+      "generado": "El lunes a las diez de la mañana, el taller de fotografia iniciara.",
+      "sha256_original": "affdf4f8839d53f09734ee85e7e411076ed990b94b6e28d254758671f601f53c",
+      "sha256_generado": "b69f34838de42324641edc0771fca3afb06a4c37bc049e8833b6e92127adfc0f",
+      "similitud_textual": 0.4923,
+      "alertas": [],
+      "duracion_segundos": 0.2281,
+      "revision_semantica": "PENDIENTE",
+      "aprobacion_manual": false
+    },
+    {
+      "id": "CONTROL_002",
+      "configuracion": "B_CON_EJEMPLOS",
+      "original": "El equipo recibira el informe mensual el proximo viernes.",
+      "generado": "El proximo viernes se le entregara el informe mensual al equipo.",
+      "sha256_original": "298b6bf2f519182ed5e764eac20852347cd93b2750da23dfb29fafc36c03f5bf",
+      "sha256_generado": "f20d60b025f79a094b1356367dd31986eb8e0aa9d194e04610e3ccc58b6f871a",
+      "similitud_textual": 0.5714,
+      "alertas": [],
+      "duracion_segundos": 0.1839,
+      "revision_semantica": "PENDIENTE",
+      "aprobacion_manual": false
+    },
+    {
+      "id": "CONTROL_003",
+      "configuracion": "B_CON_EJEMPLOS",
+      "original": "Se actualizo el horario de la biblioteca para esta semana.",
+      "generado": "El horario de la biblioteca se ha actualizado para esta semana.",
+      "sha256_original": "81187dc8be4ecbc7654c6cb34bb28b8acebb0afb68e4526acf3044bad9440a79",
+      "sha256_generado": "7241d7c4c17e1e9e75621adc35d739718f24e37e7f7e4fe6b72a7050b2caf023",
+      "similitud_textual": 0.7395,
+      "alertas": [],
+      "duracion_segundos": 0.1675,
+      "revision_semantica": "PENDIENTE",
+      "aprobacion_manual": false
+    }
+  ],
+  "variantes_dataset_generadas": 0,
+  "prueba_final_utilizada": false
+}

@@ -1,0 +1,18 @@
+T18 - VERIFICACION PRELIMINAR V3
+================================
+Fecha: 2026-11-22T16:41:40.001063-06:00
+Total registros: 30
+Referencias V2 correctas: 30
+Textos V3 modificados: 27
+Textos sin cambios: 3
+Registros marcados aptos: 0
+Observaciones vacias: 0
+Problemas detectados: 0
+
+DETALLE DE PROBLEMAS:
+Ninguno detectado
+
+La validacion automatica no garantiza
+anonimizacion completa.
+No se modificaron los modelos.
+Prueba final: NO UTILIZADA.

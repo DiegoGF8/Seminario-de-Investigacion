@@ -1,0 +1,36 @@
+{
+  "fecha": "2026-11-22T18:13:52.487791-06:00",
+  "fase": "Auditoria metodologica V2/V3",
+  "mensajes_iniciales": 30,
+  "mensajes_aprobados": 26,
+  "mensajes_excluidos": 4,
+  "mensajes_v2_v3_diferentes": 25,
+  "mensajes_v2_v3_iguales": 1,
+  "procedencia": "entrenamiento",
+  "etiqueta": "phishing",
+  "integridad_t21": "VERIFICADA",
+  "integridad_modelos": "VERIFICADA",
+  "hashes_modelos": {
+    "detector_clasico_v2.joblib": "633e6c6177fb343927a24039330d475e8f9e96c4e5401aad67ac1fe4ec770639",
+    "detector_semantico_v2.joblib": "88f9053c26704c98992c46f789e0093047ec8481078dceba5007b43aa3b6114d"
+  },
+  "hashes_codigo": {
+    "T13.py": "b9869691656026d9ca95ec40d1fcdad6220f1b3d19cfb474450b89c46cf43616",
+    "T14.py": "ab84c0cc22caa116b71f6d711edbfc4c5fb1032bfda291ae236eb8e483e9adcc",
+    "neutralizacion_v2.py": "a6159e57fea5cd9c67486ecc408aa43aa7390b05bb859fd9b1d148f3f022fe62"
+  },
+  "configuracion_generador": "B_CON_EJEMPLOS",
+  "estado_configuracion": "PROVISIONAL",
+  "equivalencia_preprocesamiento": "NO_DEMOSTRADA",
+  "protocolo_congelado": false,
+  "variantes_dataset_generadas": 0,
+  "prueba_final_utilizada": false,
+  "decisiones_pendientes": [
+    "Inspeccionar tratamiento de entrada del clasico",
+    "Inspeccionar tratamiento del encoder semantico",
+    "Determinar efecto de neutralizacion V2/V3",
+    "Definir tratamiento identico para cada pareja",
+    "Documentar limites de truncamiento",
+    "Congelar protocolo antes de prueba final"
+  ]
+}

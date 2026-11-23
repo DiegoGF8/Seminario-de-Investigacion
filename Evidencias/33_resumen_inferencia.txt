@@ -1,0 +1,9 @@
+T33 - CONTROL DE INFERENCIA V2
+================================
+Controles sinteticos: 3
+Ambos detectores recibieron el mismo texto V2.
+Modelos SHA-256: SIN CAMBIOS.
+Entrenamiento: NO EJECUTADO.
+Prueba final: NO UTILIZADA.
+Equivalencia V2/V3: NO DEMOSTRADA.
+T33 FINALIZADO.

@@ -1,0 +1,21 @@
+T33 - Diagnostico por procesos
+[2026-11-22T18:58:15.497924-06:00] Comenzando T33 - inferencia V2
+[2026-11-22T18:58:15.502952-06:00] Integridad inicial de ambos modelos: verificada
+[2026-11-22T18:58:15.503952-06:00] Iniciando proceso: clasico
+[2026-11-22T18:58:15.916666-06:00] clasico | Cargando detector clasico...
+[2026-11-22T18:58:18.036337-06:00] clasico | Detector clasico: 3 predicciones calculadas.
+[2026-11-22T18:58:18.149903-06:00] Proceso clasico: codigo de salida 0
+[2026-11-22T18:58:18.150947-06:00] Iniciando proceso: semantico
+[2026-11-22T18:58:25.693001-06:00] semantico | Cargando MiniLM en CPU...
+[2026-11-22T18:58:26.412966-06:00] semantico | 
+[2026-11-22T18:58:26.485813-06:00] semantico | Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+[2026-11-22T18:58:26.486814-06:00] semantico | Loading weights: 100%|##########| 199/199 [00:00<00:00, 2808.93it/s]
+[2026-11-22T18:58:27.466709-06:00] semantico | Encoder cargado. Calculando tokens...
+[2026-11-22T18:58:27.476943-06:00] semantico | Calculando embeddings de 3 frases...
+[2026-11-22T18:58:27.616009-06:00] semantico | Embeddings calculados. Cargando clasificador...
+[2026-11-22T18:58:27.699576-06:00] semantico | Detector semantico: 3 predicciones calculadas.
+[2026-11-22T18:58:28.408204-06:00] Proceso semantico: codigo de salida 0
+[2026-11-22T18:58:28.419282-06:00] CONTROL_A: clasico=0.3861, semantico=0.0065, tokens=14
+[2026-11-22T18:58:28.420283-06:00] CONTROL_B: clasico=0.4181, semantico=0.7698, tokens=12
+[2026-11-22T18:58:28.420283-06:00] CONTROL_C: clasico=0.5333, semantico=0.8666, tokens=28
+[2026-11-22T18:58:28.424443-06:00] T33 FINALIZADO

@@ -1,0 +1,18 @@
+T27 - COMPARACION DE INSTRUCCIONES
+=================================
+Fecha: 2026-11-22T17:33:01.089047-06:00
+Modelo: llama3.2:3b
+Controles originales: 3
+Configuraciones: 2
+Respuestas obtenidas: 6
+Respuestas con alertas: 1
+
+Revision semantica: PENDIENTE
+Variantes del dataset: 0
+Clasificadores: SIN MODIFICACIONES
+Prueba final: NO UTILIZADA
+
+La similitud textual no demuestra
+equivalencia semantica.
+
+T27 FINALIZADO.

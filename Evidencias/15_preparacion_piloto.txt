@@ -1,0 +1,18 @@
+T15 - PREPARACION DEL PILOTO EXPERIMENTAL
+=======================================
+Fecha: 2026-11-22T00:03:32.544636-06:00
+Semilla: 20261121
+Mensajes seleccionados: 30
+Etiqueta: 1 (phishing)
+Origen: entrenamiento
+Neutralizacion: V2
+Prueba final: NO UTILIZADA
+SHA256 piloto: c74fe48251347bcaa121f75366734988730ed867aed02e95dc8067e516cfa461
+
+Estado: PENDIENTE DE REVISION MANUAL
+No se han generado variantes IA.
+No se han ejecutado predicciones nuevas.
+No se han modificado los modelos.
+
+El archivo de textos es exclusivamente local.
+No enviar a API antes de revisar datos sensibles.

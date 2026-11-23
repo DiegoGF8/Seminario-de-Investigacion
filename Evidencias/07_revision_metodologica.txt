@@ -1,0 +1,30 @@
+REVISION METODOLOGICA - SEMINARIO 2
+=================================
+Fecha: 2026-11-21T23:37:06.509931-06:00
+Registros: 1395
+Clusters cruzados: 0
+
+DISTRIBUCION:
+Label             0    1
+particion               
+entrenamiento   211  265
+prueba_sellada  400  400
+validacion       53   66
+
+SHA256 DE ARCHIVOS:
+detector_clasico: e6e65a31f4ea05dab5529b952cc309de911adb6762630ad218f82596db57ae5e
+detector_semantico: 349bd532db5dd0ea84ca4f0fd91089fa3d749f3aebf2aa6d3fc0b33f6b536263
+config_semantico: 604bf37160940e3abc80eb0ff2b59b1b96459d9425b0e6e952c9f19c363c79ed
+particiones: 9a1c6b10ff723493c9c0392a21389331230376946c8fe4ec9b6b2e0657bf2551
+dependencias: 826dc83c0b2e549b4f323ed1e0c0e65a15ceb772dcfcdbbbad25e55b68f72028
+script_clasico: 7e22814712953bca39f904bd7c5695941f3015c0e559da0cc7dab193a17253bf
+script_semantico: 09512279c518ce9f0cfa8a54e78f554363a02fee19b4ae4bb7d85bdcace05c72
+
+LIMITACIONES IDENTIFICADAS:
+Encoder limitado a 128 tokens
+337 de 476 textos de entrenamiento truncables
+75 de 119 textos de validacion truncables
+Neutralizacion inicial limitada a URL y emails
+
+ESTADO: REVISION PREVIA A PRUEBA FINAL
+No se modificaron ni entrenaron modelos.

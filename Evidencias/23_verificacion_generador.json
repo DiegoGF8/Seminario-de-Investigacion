@@ -1,0 +1,17 @@
+{
+  "fecha": "2026-11-22T17:26:18.698539-06:00",
+  "modelo": "llama3.2:3b",
+  "digest_modelo": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+  "version_ollama": "0.40.17",
+  "parametros": {
+    "temperature": 0.3,
+    "seed": 20261121,
+    "num_predict": 150
+  },
+  "tipo_prueba": "CONEXION_INOFENSIVA",
+  "entrada": "Reformula con otras palabras, en espanol, sin alterar el significado y en una sola frase: 'La reunion del equipo sera el jueves por la tarde.'",
+  "salida": "La reunión del equipo se llevará a cabo el jueves por la tarde.",
+  "sha256_salida": "57e1da91282450ee4b8a40c970c06cbbe1bc76f17506458b1fd2d121709e5f13",
+  "variantes_phishing_generadas": 0,
+  "prueba_final_utilizada": false
+}

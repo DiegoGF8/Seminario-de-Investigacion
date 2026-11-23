@@ -1,0 +1,13 @@
+﻿id_control,foco_prueba,conserva_significado,reformulacion_real,decision_manual,alertas_automaticas,cantidad_alertas,observaciones
+CONTROL_004,Fecha,SI,SI,APROBADO,,0,"Reorganiza la oración y conserva día, hora, sujeto y acción."
+CONTROL_005,Cierre,SI,SI,APROBADO,,0,Conserva el cierre del lunes y su motivo de mantenimiento.
+CONTROL_006,Duracion,SI,SI,APROBADO,,0,Sustituye duración por durará y conserva las dos horas.
+CONTROL_007,Orden temporal,SI,NO,RECHAZADO,SIN_REFORMULACION,1,Repite el texto original; únicamente corrige la acentuación.
+CONTROL_008,Cantidades,SI,SI,APROBADO,,0,Conserva las tres tablas y dos figuras del informe.
+CONTROL_009,Secuencia,NO,SI,RECHAZADO,,0,Cambia después del viernes por antes del viernes; invierte la condición temporal.
+CONTROL_010,Negacion,NO,NO,RECHAZADO,NO_REFORMULABLE,1,El modelo devuelve NO_REFORMULABLE y no produce una reformulación.
+CONTROL_011,Tiempo pasado,SI,SI,APROBADO,,0,"Cambia la voz pasiva por activa; conserva responsable, acción y fecha relativa."
+CONTROL_012,Fecha limite,SI,SI,APROBADO,,0,Conserva la fecha límite del 30 de noviembre.
+CONTROL_013,Horario,SI,SI,APROBADO,,0,Cambia la estructura verbal y conserva ambas horas.
+CONTROL_014,Entrega,NO,SI,RECHAZADO,,0,Presentar el formulario no garantiza la misma acción que entregarlo; equivalencia insuficiente.
+CONTROL_015,Cambio de ubicacion,NO,SI,RECHAZADO,,0,Problemas de espacio añade una valoración no explícita en motivos de espacio.

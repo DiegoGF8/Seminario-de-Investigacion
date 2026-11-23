@@ -1,0 +1,17 @@
+T17 - PREPARACION DE REVISION V3
+================================
+Fecha: 2026-11-22T15:35:40.873895-06:00
+Mensajes preparados: 30
+REVISAR: 25
+PENDIENTE: 5
+Aprobados para IA: 0
+
+SHA256 textos originales: c74fe48251347bcaa121f75366734988730ed867aed02e95dc8067e516cfa461
+SHA256 revision: 90a802c68354ae5a515499f6a00fe80f73875dd409557c4dbd3d301f6bb29dee
+
+Los textos originales permanecen intactos.
+Se creo una copia editable del piloto.
+No se aplicaron sustituciones adicionales.
+No se generaron variantes IA.
+No se modificaron los modelos.
+Prueba final: NO UTILIZADA.

@@ -1,0 +1,106 @@
+AUDITORIA INICIAL DE SPAPHISH
+============================
+Archivo: Spaphish dataset - DiB.csv
+SHA-256: 656b2245d58da72d640680e5c2a168673a130b38607f2a427c773bbb167e995e
+Total de registros: 1395
+Total de columnas: 47
+
+COLUMNAS DISPONIBLES:
+hash
+subject
+body
+date
+url_count
+urls
+attachments_count
+attachments_types
+attachments_total_size
+attachments_sizes
+hops_count
+Label
+authority_A
+justif_authority_A
+social_proof_A
+justif_social_proof_A
+liking_similarity_deception_A
+justif_liking_similarity_deception_A
+commitment_integrity_reciprocation_A
+justif_commitment_integrity_reciprocation_A
+distraction_A
+justif_distraction_A
+authority_B
+justif_authority_B
+social_proof_B
+justif_social_proof_B
+liking_similarity_deception_B
+justif_liking_similarity_deception_B
+commitment_integrity_reciprocation_B
+justif_commitment_integrity_reciprocation_B
+distraction_B
+justif_distraction_B
+authority_C
+justif_authority_C
+social_proof_C
+justif_social_proof_C
+liking_similarity_deception_C
+justif_liking_similarity_deception_C
+commitment_integrity_reciprocation_C
+justif_commitment_integrity_reciprocation_C
+distraction_C
+justif_distraction_C
+authority
+social_proof
+liking_similarity_deception
+commitment_integrity_reciprocation
+distraction
+
+VALORES FALTANTES:
+hash                                              0
+subject                                           3
+body                                              0
+date                                             24
+url_count                                         0
+urls                                            195
+attachments_count                                 0
+attachments_types                              1124
+attachments_total_size                            0
+attachments_sizes                              1124
+hops_count                                        0
+Label                                             0
+authority_A                                       0
+justif_authority_A                                0
+social_proof_A                                    0
+justif_social_proof_A                             0
+liking_similarity_deception_A                     0
+justif_liking_similarity_deception_A              0
+commitment_integrity_reciprocation_A              0
+justif_commitment_integrity_reciprocation_A       0
+distraction_A                                     0
+justif_distraction_A                              5
+authority_B                                       0
+justif_authority_B                                0
+social_proof_B                                    0
+justif_social_proof_B                             0
+liking_similarity_deception_B                     0
+justif_liking_similarity_deception_B              0
+commitment_integrity_reciprocation_B              0
+justif_commitment_integrity_reciprocation_B       0
+distraction_B                                     0
+justif_distraction_B                              3
+authority_C                                       0
+justif_authority_C                                0
+social_proof_C                                    0
+justif_social_proof_C                             0
+liking_similarity_deception_C                     0
+justif_liking_similarity_deception_C              0
+commitment_integrity_reciprocation_C              0
+justif_commitment_integrity_reciprocation_C       0
+distraction_C                                     0
+justif_distraction_C                              0
+authority                                         0
+social_proof                                      0
+liking_similarity_deception                       0
+commitment_integrity_reciprocation                0
+distraction                                       0
+
+Filas completamente duplicadas: 0

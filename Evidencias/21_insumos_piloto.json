@@ -1,0 +1,151 @@
+{
+  "fecha": "2026-11-22T17:13:27.787491-06:00",
+  "fase": "Control previo de insumos",
+  "mensajes_iniciales": 30,
+  "mensajes_aprobados_registrados": 26,
+  "mensajes_excluidos": 4,
+  "origen": "entrenamiento",
+  "neutralizacion_entrada": "V3",
+  "clasificadores_entrenados_con": "V2",
+  "modelos": {
+    "detector_clasico_v2.joblib": "633e6c6177fb343927a24039330d475e8f9e96c4e5401aad67ac1fe4ec770639",
+    "detector_semantico_v2.joblib": "88f9053c26704c98992c46f789e0093047ec8481078dceba5007b43aa3b6114d"
+  },
+  "sha256_manifiesto": "e034e2557b5cbe9d6733958c87d78c46b440c99bdaa859e42d6177c0012e5339",
+  "mensajes": [
+    {
+      "id_par": "PILOTO_001",
+      "row_id": "3",
+      "sha256": "8ddb60f4d438f4983e143805457b646bbfcbdf564f0b7718d22ceff0dd1ff7f2"
+    },
+    {
+      "id_par": "PILOTO_002",
+      "row_id": "53",
+      "sha256": "950cf3fa86c6509171cf0b48c14ce491d3e5c23ea5b3af1fd3d8d1479b2aded5"
+    },
+    {
+      "id_par": "PILOTO_003",
+      "row_id": "100",
+      "sha256": "f7c373a0a9f7a357a1e80e907c9af295fe38c12221b7f1ceb41556a91ebb9f4c"
+    },
+    {
+      "id_par": "PILOTO_004",
+      "row_id": "143",
+      "sha256": "2d6c3b21bbe957c8299ac5d7625e6175c75f63f2f56b633b65eb851291fe7f79"
+    },
+    {
+      "id_par": "PILOTO_006",
+      "row_id": "220",
+      "sha256": "1f9164611c7d5158b8da862df99ebfe0bbb5dbea127f9e30c5d83e6f88cc67e7"
+    },
+    {
+      "id_par": "PILOTO_007",
+      "row_id": "234",
+      "sha256": "a596464a86a949ccc1f4601807830781950c2bbd2b8eb11a984f314e84d696da"
+    },
+    {
+      "id_par": "PILOTO_008",
+      "row_id": "273",
+      "sha256": "2af9af2fe46bd91abddb5d68987e0f4ca218210d71ed70e370b69af68f9e80be"
+    },
+    {
+      "id_par": "PILOTO_009",
+      "row_id": "307",
+      "sha256": "cf503dc4b1d92f392c3432fbc6e24b404d1c8d8a34d79baadaeae49d163391d4"
+    },
+    {
+      "id_par": "PILOTO_010",
+      "row_id": "309",
+      "sha256": "618499f8a10a276ae683d9ecf2fd855202f5b4c276e1d1c27f9706c1089960d3"
+    },
+    {
+      "id_par": "PILOTO_011",
+      "row_id": "321",
+      "sha256": "627cf8a54ecb771fb07d5be1cfe266e8bddeffcdba41d8f78c4480af9c1be16b"
+    },
+    {
+      "id_par": "PILOTO_012",
+      "row_id": "379",
+      "sha256": "aab4f626bcb22253cf864ca175a3d8bcfc178b5199f394f1606da2f9bad10673"
+    },
+    {
+      "id_par": "PILOTO_013",
+      "row_id": "388",
+      "sha256": "faf7a47c009df862ec26ac6126f2e50d7d98f27e4eb1c6f19945a3e0104b5586"
+    },
+    {
+      "id_par": "PILOTO_014",
+      "row_id": "422",
+      "sha256": "3883992690bed0fee38b08bc5aa8c18e3d7588a5da53330fb37c6cbfbad34dfc"
+    },
+    {
+      "id_par": "PILOTO_015",
+      "row_id": "436",
+      "sha256": "0f12029f602acd5fe6cdcaa53864433e5679660f9e7b1777cd6fd70889bb1f0a"
+    },
+    {
+      "id_par": "PILOTO_017",
+      "row_id": "466",
+      "sha256": "8b9568e7008d4e21c2637cf4a1c308ed34d1853f0b66e62b45461c6727c8aea3"
+    },
+    {
+      "id_par": "PILOTO_018",
+      "row_id": "467",
+      "sha256": "cf503dc4b1d92f392c3432fbc6e24b404d1c8d8a34d79baadaeae49d163391d4"
+    },
+    {
+      "id_par": "PILOTO_019",
+      "row_id": "470",
+      "sha256": "2e47389a45cf98485991b23bd3a7366e23ef3e40469ac42fa9c2a0a86d1132ac"
+    },
+    {
+      "id_par": "PILOTO_020",
+      "row_id": "479",
+      "sha256": "64410cbd1bbd56e9d543093a3eddd57d184ede395c0bd8e9adb089a6300a35b2"
+    },
+    {
+      "id_par": "PILOTO_021",
+      "row_id": "520",
+      "sha256": "d4cf9446bad0ad9b7f839f3b6294e82ffc3ac72f859d0526e799c05c53a5388e"
+    },
+    {
+      "id_par": "PILOTO_023",
+      "row_id": "568",
+      "sha256": "353902a3ce959156d0f23724ab851443e2efe4264dbc94172dac55e1259c7e49"
+    },
+    {
+      "id_par": "PILOTO_024",
+      "row_id": "581",
+      "sha256": "f39e96bd10eed0e89d368f4ad778f45b14ee73b0186fb2020beac4f41dd975d2"
+    },
+    {
+      "id_par": "PILOTO_025",
+      "row_id": "613",
+      "sha256": "21e73ebdb24bad240e730c9746537199b2a04cea43eb398daee1736bbceabd60"
+    },
+    {
+      "id_par": "PILOTO_026",
+      "row_id": "674",
+      "sha256": "d067091fc697e88bd9c91ec51f0f0d93395393a5d21c16cf2ea625d63fa62cb7"
+    },
+    {
+      "id_par": "PILOTO_027",
+      "row_id": "690",
+      "sha256": "3c38a3d147b8fde7f62743a21042c280ebba8b71f8b03595818f0fa853785810"
+    },
+    {
+      "id_par": "PILOTO_028",
+      "row_id": "693",
+      "sha256": "1f6d170bba0b92697a7b1d8946921488b76301d3f7c2e8b2de4a27c9b37f5df3"
+    },
+    {
+      "id_par": "PILOTO_029",
+      "row_id": "724",
+      "sha256": "ed52db429d52cce32a12670aa7e9dd23f5377c8717da4574dd99bcee71d26cb4"
+    }
+  ],
+  "variantes_ia_generadas": 0,
+  "prueba_final_utilizada": false,
+  "protocolo_generacion_congelado": false,
+  "nota": "El piloto no proporciona estimaciones independientes de rendimiento."
+}

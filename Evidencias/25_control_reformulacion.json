@@ -1,0 +1,49 @@
+{
+  "fecha": "2026-11-22T17:29:26.811751-06:00",
+  "modelo": "llama3.2:3b",
+  "digest_modelo": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+  "parametros": {
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "seed": 20261121,
+    "num_predict": 120,
+    "num_ctx": 2048
+  },
+  "instrucciones": "Eres un asistente de reformulacion de texto.\n\nTu tarea consiste exclusivamente en reformular\noraciones administrativas inofensivas en espanol.\n\nREGLAS:\n1. Conserva exactamente los hechos originales.\n2. No inventes informacion.\n3. No elimines informacion importante.\n4. No cambies fechas, lugares ni cantidades.\n5. No agregues interpretaciones o explicaciones.\n6. Utiliza una redaccion diferente a la original.\n7. Devuelve solamente una oracion reformulada.\n8. No agregues enlaces ni datos de contacto.\n9. Si no puedes conservar el significado,\n   responde: NO_REFORMULABLE.",
+  "resultados": [
+    {
+      "id": "CONTROL_001",
+      "original": "El taller de fotografia iniciara el lunes a las diez de la manana.",
+      "generado": "El taller de fotografia comenzara el lunes a las diez de la mañana.",
+      "sha256_original": "affdf4f8839d53f09734ee85e7e411076ed990b94b6e28d254758671f601f53c",
+      "sha256_generado": "5fc8840b5947123297d81126751a87a4a754ef2eba2f4ab8c3df63ad69c02a45",
+      "alertas": [],
+      "estado": "PENDIENTE_REVISION_SEMANTICA",
+      "equivalencia_semantica_aprobada": false
+    },
+    {
+      "id": "CONTROL_002",
+      "original": "El equipo recibira el informe mensual el proximo viernes.",
+      "generado": "El equipo recibirá el informe mensual el próximo viernes.",
+      "sha256_original": "298b6bf2f519182ed5e764eac20852347cd93b2750da23dfb29fafc36c03f5bf",
+      "sha256_generado": "d16b7864736befce26a93bdae1b7dae0fdd96221c36a070c5367f07396a7b3c5",
+      "alertas": [
+        "SIN_REFORMULACION_REAL"
+      ],
+      "estado": "REVISAR_ALERTAS",
+      "equivalencia_semantica_aprobada": false
+    },
+    {
+      "id": "CONTROL_003",
+      "original": "Se actualizo el horario de la biblioteca para esta semana.",
+      "generado": "El horario actualizado de la biblioteca para esta semana ha sido revisado.",
+      "sha256_original": "81187dc8be4ecbc7654c6cb34bb28b8acebb0afb68e4526acf3044bad9440a79",
+      "sha256_generado": "babe9da55b7a5c44925d4d0b0f5e35b0ed91d5fd6c7b9630e1558b395cb7ecee",
+      "alertas": [],
+      "estado": "PENDIENTE_REVISION_SEMANTICA",
+      "equivalencia_semantica_aprobada": false
+    }
+  ],
+  "variantes_dataset_generadas": 0,
+  "prueba_final_utilizada": false
+}

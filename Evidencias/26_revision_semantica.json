@@ -1,0 +1,37 @@
+{
+  "fecha": "2026-11-22T17:31:25.739332-06:00",
+  "fase": "Revision semantica de controles",
+  "modelo": "llama3.2:3b",
+  "sha256_evidencia_t25": "87b3aa7f60aad4e89bfc9e6d21a2a57d155736e0fb55ff2e84e476b218bb3137",
+  "total": 3,
+  "aprobados": 1,
+  "rechazados": 2,
+  "revision": [
+    {
+      "id": "CONTROL_001",
+      "texto_original": "El taller de fotografia iniciara el lunes a las diez de la manana.",
+      "texto_generado": "El taller de fotografia comenzara el lunes a las diez de la mañana.",
+      "decision": "APROBADO",
+      "justificacion": "Reformulacion equivalente. Conserva actividad, fecha y hora.",
+      "alertas_automaticas": ""
+    },
+    {
+      "id": "CONTROL_002",
+      "texto_original": "El equipo recibira el informe mensual el proximo viernes.",
+      "texto_generado": "El equipo recibirá el informe mensual el próximo viernes.",
+      "decision": "RECHAZADO",
+      "justificacion": "Repite el mensaje original sin una reformulacion sustantiva.",
+      "alertas_automaticas": "SIN_REFORMULACION_REAL"
+    },
+    {
+      "id": "CONTROL_003",
+      "texto_original": "Se actualizo el horario de la biblioteca para esta semana.",
+      "texto_generado": "El horario actualizado de la biblioteca para esta semana ha sido revisado.",
+      "decision": "RECHAZADO",
+      "justificacion": "Introduce una revision del horario que no consta en el original.",
+      "alertas_automaticas": ""
+    }
+  ],
+  "variantes_dataset_generadas": 0,
+  "prueba_final_utilizada": false
+}

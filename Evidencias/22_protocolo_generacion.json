@@ -1,0 +1,29 @@
+{
+  "fecha": "2026-11-22T17:14:42.732952-06:00",
+  "fase": "Piloto exploratorio",
+  "estado": "PREPARACION",
+  "mensajes_referencia": 26,
+  "origen": "entrenamiento",
+  "neutralizacion_referencia": "V3",
+  "modelos_clasificacion": [
+    "detector_clasico_v2.joblib",
+    "detector_semantico_v2.joblib"
+  ],
+  "generador": "PENDIENTE",
+  "version_generador": "PENDIENTE",
+  "parametros": "PENDIENTE",
+  "variantes_generadas": 0,
+  "comparacion": "Pares original y variante",
+  "control": [
+    "Mismos criterios de preprocesamiento",
+    "Una referencia por pareja",
+    "Registrar el hash de cada variante",
+    "Conservar archivos originales",
+    "No utilizar enlaces funcionales",
+    "No incluir credenciales reales",
+    "No optimizar variantes para evadir detectores",
+    "Revisar cada variante antes de evaluarla"
+  ],
+  "prueba_final_utilizada": false,
+  "protocolo_congelado": false
+}

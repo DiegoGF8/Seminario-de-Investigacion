@@ -1,0 +1,50 @@
+{
+  "fecha": "2026-11-22T18:26:56.110310-06:00",
+  "fase": "T32 - Auditoria del preprocesamiento real",
+  "detector_clasico": "subject + body -> neutralizar_v2 -> TF-IDF -> regresion logistica",
+  "detector_semantico": "subject + body -> neutralizar_v2 -> encoder -> regresion logistica",
+  "encoder": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "revision_encoder": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "truncables_entrenamiento_registrados": 339,
+  "truncables_validacion_registrados": 75,
+  "hashes_modelos": {
+    "detector_clasico_v2.joblib": "633e6c6177fb343927a24039330d475e8f9e96c4e5401aad67ac1fe4ec770639",
+    "detector_semantico_v2.joblib": "88f9053c26704c98992c46f789e0093047ec8481078dceba5007b43aa3b6114d"
+  },
+  "hashes_scripts": {
+    "T13.py": "b9869691656026d9ca95ec40d1fcdad6220f1b3d19cfb474450b89c46cf43616",
+    "T14.py": "ab84c0cc22caa116b71f6d711edbfc4c5fb1032bfda291ae236eb8e483e9adcc",
+    "neutralizacion_v2.py": "a6159e57fea5cd9c67486ecc408aa43aa7390b05bb859fd9b1d148f3f022fe62"
+  },
+  "pruebas_neutralizacion": [
+    {
+      "control": "URL",
+      "correcto": true,
+      "idempotente": true
+    },
+    {
+      "control": "Correo",
+      "correcto": true,
+      "idempotente": true
+    },
+    {
+      "control": "Dominio",
+      "correcto": true,
+      "idempotente": true
+    },
+    {
+      "control": "Numero",
+      "correcto": true,
+      "idempotente": true
+    }
+  ],
+  "diferentes_v2_v3_aprobados": 25,
+  "iguales_v2_v3_aprobados": 1,
+  "equivalencia_v2_v3": "NO_DEMOSTRADA",
+  "revision_preprocesamiento": "ESTATICA",
+  "entrenamiento_ejecutado": false,
+  "predicciones_ejecutadas": false,
+  "modelos_modificados": false,
+  "prueba_final_utilizada": false,
+  "protocolo_congelado": false
+}

@@ -1,0 +1,38 @@
+T31 - AUDITORIA METODOLOGICA V2/V3
+=================================
+Fecha: 2026-11-22T18:13:52.487791-06:00
+
+PILOTO:
+Registros originales seleccionados: 30
+Registros aprobados: 26
+Registros excluidos: 4
+Referencias V2/V3 diferentes: 25
+Referencias V2/V3 iguales: 1
+
+INTEGRIDAD:
+Hashes de mensajes T21: VERIFICADOS
+Hashes de modelos V2: VERIFICADOS
+Procedencia: ENTRENAMIENTO
+Etiqueta: PHISHING
+
+PREPROCESAMIENTO:
+Equivalencia V2/V3: NO DEMOSTRADA
+Inspeccion del codigo: PENDIENTE
+Tratamiento de pares: PENDIENTE
+
+GENERADOR:
+Modelo: llama3.2:3b
+Configuracion: B_CON_EJEMPLOS
+Seleccion: PROVISIONAL
+
+Prueba final: NO UTILIZADA
+Clasificadores: SIN MODIFICACIONES
+Protocolo congelado: NO
+
+CONCLUSION:
+La integridad de los insumos esta verificada.
+La equivalencia metodologica requiere
+inspeccionar el preprocesamiento real.
+No se ejecutaron predicciones nuevas.
+
+T31 FINALIZADO.

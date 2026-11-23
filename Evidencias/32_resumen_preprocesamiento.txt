@@ -1,0 +1,22 @@
+T32 - AUDITORIA DE PREPROCESAMIENTO REAL
+=======================================
+Fecha: 2026-11-22T18:26:56.110310-06:00
+T13: subject + body y neutralizacion V2 antes de TF-IDF.
+T14: subject + body y neutralizacion V2 antes del encoder.
+Modelo clasico: Pipeline TF-IDF + regresion logistica.
+Modelo semantico: encoder externo + regresion logistica.
+Version del encoder: COINCIDENTE entre configuraciones.
+SHA-256 de los dos modelos: VERIFICADOS con T21.
+SHA-256 de los scripts: VERIFICADOS con T31.
+Pruebas sinteticas V2: 4/4.
+V2/V3 diferentes en T31: 25.
+V2/V3 iguales en T31: 1.
+Equivalencia V2/V3: NO DEMOSTRADA.
+Truncamiento semantico: PENDIENTE DE CONTROL EN INFERENCIA.
+Modelos: SIN MODIFICACIONES.
+Entrenamiento: NO EJECUTADO.
+Predicciones: NO EJECUTADAS.
+Prueba final: NO UTILIZADA.
+Protocolo congelado: NO.
+
+T32 FINALIZADO.

@@ -1,0 +1,11 @@
+T25 - CONTROL DE REFORMULACION
+================================
+Fecha: 2026-11-22T17:29:26.811751-06:00
+Modelo: llama3.2:3b
+Ejemplos: 3
+Ejemplos con alertas: 1
+Validacion semantica: PENDIENTE
+Variantes del dataset: 0
+Prueba final: NO UTILIZADA
+
+T25 FINALIZADO.

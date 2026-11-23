@@ -1,0 +1,51 @@
+{
+  "fecha": "2026-11-22T18:12:16.707191-06:00",
+  "fase": "Consolidacion de validacion adicional",
+  "modelo": "llama3.2:3b",
+  "configuracion": "B_CON_EJEMPLOS",
+  "controles_evaluados": 12,
+  "aprobados": 7,
+  "rechazados": 5,
+  "tasa_aprobacion": 0.5833,
+  "tasa_rechazo": 0.4167,
+  "respuestas_con_alertas": 2,
+  "rechazados_sin_alerta": 3,
+  "ids_rechazados_sin_alerta": [
+    "CONTROL_009",
+    "CONTROL_014",
+    "CONTROL_015"
+  ],
+  "hallazgos": [
+    {
+      "id": "CONTROL_009",
+      "tipo": "ALTERACION_TEMPORAL",
+      "descripcion": "El generador sustituyo 'despues del viernes' por 'antes del viernes', invirtiendo la condicion temporal.",
+      "deteccion_automatica": false
+    },
+    {
+      "id": "CONTROL_007",
+      "tipo": "AUSENCIA_DE_REFORMULACION",
+      "descripcion": "El texto generado reproduce el original.",
+      "deteccion_automatica": true
+    },
+    {
+      "id": "CONTROL_010",
+      "tipo": "SIN_RESPUESTA_REFORMULADA",
+      "descripcion": "El modelo respondio NO_REFORMULABLE.",
+      "deteccion_automatica": true
+    }
+  ],
+  "sha256_excel": "d0c237a5f6bc7830a4d02b8d03e5349dbc18f5b8ba183e37db2bb03a44b675e9",
+  "sha256_t29": "b979553389708ded39e2c9a6dadeacd7045c0b50a198c3070e783d49c4ab0d98",
+  "seleccion_generador": "PROVISIONAL",
+  "protocolo_congelado": false,
+  "variantes_dataset_generadas": 0,
+  "prueba_final_utilizada": false,
+  "limitaciones": [
+    "Muestra pequena de 12 controles",
+    "Datos administrativos sinteticos",
+    "No demuestra rendimiento sobre phishing",
+    "Revision semantica con criterios conservadores",
+    "No se realizaron pruebas independientes finales"
+  ]
+}
